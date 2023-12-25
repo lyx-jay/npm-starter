@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev:iframe": "pnpm -F sdk-test run serve",
+    "dev:parent": "pnpm -F vue3-example run dev"
   },
   "keywords": [],
   "author": "lyx",
